@@ -1,7 +1,7 @@
 # pfa-week04
 Fiori Sims Week 4 Homework for Programming for Animators FA26 
 Install Pygame, Install and run bounce_game.py through your computer's terminal. 
-Created a simple ball game and changed the theme. Added objects to break/changed their shape and added projectiles. Changed ball/player shape into rocket 
+Created a simple ball game and changed the theme. Added objects to break/changed their shape and added projectiles. Changed ball/player shape into rocket. 
 def 1:
 def damage_planet(self, planet):
         planet.hits += 1
@@ -42,4 +42,10 @@ def 3:
 This def decides what information appears on the screen when the player loses. 
 
 Self-written def:
+def count_hits(self):
+    """Hits the ship has made: rams plus bolt strikes (wall bounces excluded)."""
+    return self.hits_dealt
+I added this function to count the amount of hits the planet makes, excluding the times where the ball hits the side of the frame. 
+Code Screen Recording: https://drive.google.com/file/d/1Z9Y6g_eCut3LqR7n-YG0Wr9ewF4KeI1W/view?usp=sharing
+    
 
